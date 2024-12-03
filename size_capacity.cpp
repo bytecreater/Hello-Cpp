@@ -11,8 +11,8 @@ int main() {
     vec.push_back(40);
     vec.push_back(45);
 
-    cout<<"size: "<< vec.size()<<endl; // size of vector 4
-    cout<<"capacity: "<< vec.capacity()<<endl; // capacity of vector 2*size
+    cout<<"size: "<< vec.size()<<endl; // size of vector 
+    cout<<"capacity: "<< vec.capacity()<<endl; // capacity of vector 
 
     return 0;
 }
