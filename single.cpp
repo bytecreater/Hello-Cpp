@@ -14,6 +14,7 @@ using namespace std;
 //     return 0;
 // }
 
+// find the number which is not a twice in vactor
 // using vectors
 #include <iostream>
 #include <string>
