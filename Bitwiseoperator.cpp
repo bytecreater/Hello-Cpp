@@ -24,11 +24,13 @@ int main() {
 
     // bitwise << leftshift operator move bits to left and fill 0 on right side
     // 4 << 2 = 16 [4=100] [100<<2=10000]
+    // a << b = a * 2^b
     int f= (4<<2);
     cout<<"4 << 2 = "<<f<<endl;
 
     // bitwise >> rightshift operator move bits to right and fill 0 on left side
     // 4 >> 2 = 16 [4=100] [100>>2=1]
+    // a >> b = a / 2^b
     int g= (4>>2);
     cout<<"4 >> 2 = "<<g<<endl;
     return 0;
